@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
@@ -118,7 +118,7 @@ export default function Page() {
               ]
             },
             {
-              title: "Pipeline Stages",              description: "Visualize your entire sales pipeline with customizable stages and forecasting",              bentoComponent: "3d-task-list",              title: "Sales Process",              items: [
+              title: "Pipeline Stages",              description: "Visualize your entire sales pipeline with customizable stages and forecasting",              bentoComponent: "3d-task-list",              items: [
                 { icon: Mail, label: "Lead Outreach", time: "Day 1" },
                 { icon: Phone, label: "Discovery Call", time: "Day 3-5" },
                 { icon: FileText, label: "Proposal", time: "Day 7-10" }
